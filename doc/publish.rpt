@@ -1,0 +1,74 @@
+[info] Updated file /home/nick/Downloads/GPIO_vA/project/build.properties: set sbt.version to 1.10.0
+[info] welcome to sbt 1.10.0 (N/A Java 21.0.3)
+[info] loading settings for project gpio_va-build from metals.sbt,plugins.sbt ...
+[info] loading project definition from /home/nick/Downloads/GPIO_vA/project
+[info] loading settings for project root from build.sbt ...
+[info] set current project to dynamicfifo (in build file:/home/nick/Downloads/GPIO_vA/)
+[info] Wrote /home/nick/Downloads/GPIO_vA/target/scala-2.13/dynamicfifo_2.13-0.1.0.pom
+[info] Main Scala API documentation to /home/nick/Downloads/GPIO_vA/target/scala-2.13/api...
+[info] compiling 4 Scala sources to /home/nick/Downloads/GPIO_vA/target/scala-2.13/classes ...
+[info] Main Scala API documentation successful.
+[info] done compiling
+[info] Test Scala API documentation to /home/nick/Downloads/GPIO_vA/target/scala-2.13/test-api...
+[info] compiling 1 Scala source to /home/nick/Downloads/GPIO_vA/target/scala-2.13/test-classes ...
+[info] Test Scala API documentation successful.
+[info] done compiling
+[info] :: delivering :: tech.rocksavage#dynamicfifo_2.13;0.1.0 :: 0.1.0 :: release :: Sat Sep 28 12:44:01 MDT 2024
+[info] 	delivering ivy file to /home/nick/Downloads/GPIO_vA/target/scala-2.13/ivy-0.1.0.xml
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/srcs/dynamicfifo_2.13-tests-sources.jar (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/srcs/dynamicfifo_2.13-tests-sources.jar.sha1 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/srcs/dynamicfifo_2.13-tests-sources.jar.md5 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[info] 	published dynamicfifo_2.13 to /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/srcs/dynamicfifo_2.13-tests-sources.jar
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/docs/dynamicfifo_2.13-tests-javadoc.jar (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/docs/dynamicfifo_2.13-tests-javadoc.jar.sha1 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/docs/dynamicfifo_2.13-tests-javadoc.jar.md5 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[info] 	published dynamicfifo_2.13 to /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/docs/dynamicfifo_2.13-tests-javadoc.jar
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/srcs/dynamicfifo_2.13-sources.jar (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/srcs/dynamicfifo_2.13-sources.jar.sha1 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/srcs/dynamicfifo_2.13-sources.jar.md5 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[info] 	published dynamicfifo_2.13 to /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/srcs/dynamicfifo_2.13-sources.jar
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/jars/dynamicfifo_2.13.jar (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/jars/dynamicfifo_2.13.jar.sha1 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/jars/dynamicfifo_2.13.jar.md5 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[info] 	published dynamicfifo_2.13 to /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/jars/dynamicfifo_2.13.jar
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/docs/dynamicfifo_2.13-javadoc.jar (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/docs/dynamicfifo_2.13-javadoc.jar.sha1 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/docs/dynamicfifo_2.13-javadoc.jar.md5 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[info] 	published dynamicfifo_2.13 to /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/docs/dynamicfifo_2.13-javadoc.jar
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/jars/dynamicfifo_2.13-tests.jar (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/jars/dynamicfifo_2.13-tests.jar.sha1 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/jars/dynamicfifo_2.13-tests.jar.md5 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[info] 	published dynamicfifo_2.13 to /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/jars/dynamicfifo_2.13-tests.jar
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/poms/dynamicfifo_2.13.pom (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/poms/dynamicfifo_2.13.pom.sha1 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/poms/dynamicfifo_2.13.pom.md5 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[info] 	published dynamicfifo_2.13 to /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/poms/dynamicfifo_2.13.pom
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/ivys/ivy.xml (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[warn] Attempting to overwrite /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)
+[warn] 	You need to remove it from the cache manually to take effect.
+[info] 	published ivy to /home/nick/.ivy2/local/tech.rocksavage/dynamicfifo_2.13/0.1.0/ivys/ivy.xml
+[success] Total time: 8 s, completed Sep 28, 2024, 12:44:01 PM

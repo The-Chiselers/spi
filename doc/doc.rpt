@@ -1,0 +1,429 @@
+[info] welcome to sbt 1.10.0 (N/A Java 21.0.3)
+[info] loading settings for project gpio_va-build from metals.sbt,plugins.sbt ...
+[info] loading project definition from /home/nick/Downloads/GPIO_vA/project
+[info] loading settings for project root from build.sbt ...
+[info] set current project to dynamicfifo (in build file:/home/nick/Downloads/GPIO_vA/)
+[info] Main Scala API documentation to /home/nick/Downloads/GPIO_vA/target/scala-2.13/api...
+[info] Main Scala API documentation successful.
+[success] Total time: 4 s, completed Sep 28, 2024, 12:44:09 PM
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./GPIO.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/size10.clo))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/geometry/geometry.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/keyval.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/iftex/ifvtex.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/iftex/iftex.sty)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/tools/longtable.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/xcolor/xcolor.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-cfg/color.cfg)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-def/pdftex.def)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/mathcolor.ltx))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/dvipsnam.def)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/colortbl/colortbl.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/tools/array.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/fancyhdr/fancyhdr.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/graphicx.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/graphics.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/trig.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-cfg/graphics.cfg)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/hyperref.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/kvsetkeys/kvsetkeys.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/kvdefinekeys/kvdefinekeys.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/pdfescape/pdfescape.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/ltxcmds/ltxcmds.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/pdftexcmds/pdftexcmds.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/infwarerr/infwarerr.sty)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hycolor/hycolor.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/auxhook/auxhook.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/nameref.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/refcount/refcount.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/gettitlestring/gettitlestring.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/kvoptions/kvoptions.sty)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/etoolbox/etoolbox.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/pd1enc.def)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/intcalc/intcalc.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/puenc.def)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/url/url.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/bitset/bitset.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/bigintcalc/bigintcalc.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/atbegshi-ltx.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/hpdftex.def
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/atveryend-ltx.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/rerunfilecheck/rerunfilecheck.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/uniquecounter/uniquecounter.sty)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/float/float.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/listings.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstpatch.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstmisc.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/listings.cfg))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/amssymb.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/amsfonts.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amstext.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsgen.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsbsy.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsopn.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/enumitem/enumitem.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/parskip/parskip.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/l3backend/l3backend-pdftex.def)
+No file GPIO.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/con
+text/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/epstopdf-pkg/epstopdf-base.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/latexconfig/epstopdf-sys.cfg))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/umsa.fd)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/umsb.fd) [1{/nix/store/kvrxvi8bs68bj14ln741l6irz4cy5pkv-texlive-202
+3-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/Rocksavage_
+Tech_RGB_300.png> <./images/uncertified.png>]
+No file GPIO.toc.
+[2{/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts
+/enc/dvips/cm-super/cm-super-ts1.enc}] (./errata.tex) [3] (./ports.tex
+
+LaTeX Warning: Reference `table:ports' on page 4 undefined on input line 5.
+
+
+Overfull \hbox (26.50359pt too wide) in alignment at lines 21--117
+ [] [] [] [] 
+) [4] (./params.tex
+
+LaTeX Warning: Reference `table:params' on page 5 undefined on input line 6.
+
+
+Overfull \hbox (24.82584pt too wide) in alignment at lines 15--43
+ [] [] [] [] [] 
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstlang1.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstlang2.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstlang3.sty)) [5] (./tops.tex
+
+LaTeX Warning: Reference `table:ports' on page 6 undefined on input line 15.
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.43 \newpage
+              <./images/block-diagram.png>]
+
+LaTeX Warning: Reference `fig:timing' on page 7 undefined on input line 47.
+
+) [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.80 \include{./tops}
+                      <./images/timing.png>] (./sim.tex
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/ts1cmtt.fd)) [8] (./syn.tex) [9] (./GPIO.aux (./errata.aux)
+(./ports.aux) (./params.aux) (./tops.aux) (./sim.aux) (./syn.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `GPIO.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</nix/store/i3fpc3wmqzy1lnw
+x4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp
+05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-te
+xlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr17.pfb></nix/store/i
+3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-e
+nv-texmfdist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></nix/store/i3fpc3wmqzy1
+lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfd
+ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqi
+gnp05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/cm-super/sfrm1000.pfb
+></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/
+type1/public/cm-super/sfti1000.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs
+-texlive-2023-env-texmfdist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on GPIO.pdf (9 pages, 238454 bytes).
+Transcript written on GPIO.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./GPIO.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/size10.clo))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/geometry/geometry.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/keyval.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/iftex/ifvtex.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/iftex/iftex.sty)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/tools/longtable.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/xcolor/xcolor.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-cfg/color.cfg)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-def/pdftex.def)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/mathcolor.ltx))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/dvipsnam.def)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/colortbl/colortbl.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/tools/array.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/fancyhdr/fancyhdr.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/graphicx.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/graphics.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/trig.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-cfg/graphics.cfg)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/hyperref.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/kvsetkeys/kvsetkeys.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/kvdefinekeys/kvdefinekeys.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/pdfescape/pdfescape.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/ltxcmds/ltxcmds.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/pdftexcmds/pdftexcmds.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/infwarerr/infwarerr.sty)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hycolor/hycolor.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/auxhook/auxhook.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/nameref.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/refcount/refcount.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/gettitlestring/gettitlestring.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/kvoptions/kvoptions.sty)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/etoolbox/etoolbox.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/pd1enc.def)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/intcalc/intcalc.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/puenc.def)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/url/url.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/bitset/bitset.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/bigintcalc/bigintcalc.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/atbegshi-ltx.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/hpdftex.def
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/atveryend-ltx.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/rerunfilecheck/rerunfilecheck.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/gen
+eric/uniquecounter/uniquecounter.sty)))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/float/float.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/listings.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstpatch.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstmisc.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/listings.cfg))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/amssymb.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/amsfonts.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amstext.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsgen.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsbsy.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsopn.sty))
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/enumitem/enumitem.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/parskip/parskip.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/l3backend/l3backend-pdftex.def) (./GPIO.aux (./errata.aux) (./ports.aux)
+(./params.aux) (./tops.aux) (./sim.aux) (./syn.aux))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/con
+text/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/epstopdf-pkg/epstopdf-base.sty
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/latexconfig/epstopdf-sys.cfg)) (./GPIO.out) (./GPIO.out)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/umsa.fd)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/umsb.fd) [1{/nix/store/kvrxvi8bs68bj14ln741l6irz4cy5pkv-texlive-202
+3-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/Rocksavage_
+Tech_RGB_300.png> <./images/uncertified.png>] (./GPIO.toc) [2{/nix/store/i3fpc3
+wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/enc/dvips/cm-super/
+cm-super-ts1.enc}] (./errata.tex) [3] (./ports.tex
+Overfull \hbox (26.50359pt too wide) in alignment at lines 21--117
+ [] [] [] [] 
+) [4] (./params.tex
+Overfull \hbox (24.82584pt too wide) in alignment at lines 15--43
+ [] [] [] [] [] 
+
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstlang1.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstlang2.sty)
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/listings/lstlang3.sty)) [5] (./tops.tex [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.43 \newpage
+              <./images/block-diagram.png>]) [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.80 \include{./tops}
+                      <./images/timing.png>] (./sim.tex
+(/nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/tex/lat
+ex/base/ts1cmtt.fd)) [8] (./syn.tex) [9] (./GPIO.aux (./errata.aux)
+(./ports.aux) (./params.aux) (./tops.aux) (./sim.aux) (./syn.aux)) )
+(see the transcript file for additional information)</nix/store/i3fpc3wmqzy1lnw
+x4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp
+05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-te
+xlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr17.pfb></nix/store/i
+3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-e
+nv-texmfdist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></nix/store/i3fpc3wmqzy1
+lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfd
+ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqi
+gnp05rabqjs-texlive-2023-env-texmfdist/fonts/type1/public/cm-super/sfrm1000.pfb
+></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs-texlive-2023-env-texmfdist/fonts/
+type1/public/cm-super/sfti1000.pfb></nix/store/i3fpc3wmqzy1lnwx4yiqignp05rabqjs
+-texlive-2023-env-texmfdist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on GPIO.pdf (9 pages, 242451 bytes).
+Transcript written on GPIO.log.

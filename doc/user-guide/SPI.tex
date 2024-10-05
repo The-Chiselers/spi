@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{Summary of the SPI Protocol}
+\author{ROCKSAVAGE}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Features Brainstorming (To be removed before distribution)}
+\begin{itemize}
+    \item Daisy Chaining
+\end{itemize}
+
+\section{Introduction}
+The Serial Peripheral Interface (SPI) is a synchronous, full-duplex communication protocol widely used to interface microcontrollers with peripheral devices such as sensors, ADCs, DACs, and memory devices. This document summarizes the operational behavior of the SPI protocol, including data transmission mechanisms, clock configurations, and multi-subnode communication methods.
+
+\section{Data Transmission}
+To initiate SPI communication, the master device (main) must generate the clock signal and select the slave device (subnode) by asserting the Chip Select (CS) signal. The CS signal is typically active low, requiring the main to send a logic 0 to select the subnode. During data transmission, both the main and the subnode can send and receive data simultaneously through the Master Out Slave In (MOSI) and Master In Slave Out (MISO) lines.
+
+The SPI protocol allows data to be transmitted serially on the MOSI line while simultaneously receiving data from the MISO line. The transmission and reception are synchronized to the clock signal, with the edge of the clock determining when data is shifted and sampled. The user can configure the clock edge for sampling and shifting as per the device requirements.
+
+\section{Clock Polarity and Clock Phase}
+The clock configuration in SPI can be defined by two parameters:
+\begin{itemize}
+    \item \textbf{Clock Polarity (CPOL):} Defines the idle state of the clock signal (high or low).
+    \item \textbf{Clock Phase (CPHA):} Determines which clock edge (rising or falling) is used for data sampling and shifting.
+\end{itemize}
+
+Based on the combinations of CPOL and CPHA, four SPI modes can be established, as shown in Table \ref{tab:spi_modes}.
+
+\begin{table}[h]
+    \centering
+    \caption{SPI Modes with CPOL and CPHA}
+    \begin{tabular}{@{}ccc@{}}
+        \toprule
+        \textbf{SPI Mode} & \textbf{CPOL} & \textbf{CPHA} \\ \midrule
+        0                  & 0             & 0             \\
+        1                  & 0             & 1             \\
+        2                  & 1             & 0             \\
+        3                  & 1             & 1             \\ \bottomrule
+    \end{tabular}
+    \label{tab:spi_modes}
+\end{table}
+
+% \section{Timing Diagrams}
+% Figures \ref{fig:mode0}, \ref{fig:mode1}, \ref{fig:mode2}, and \ref{fig:mode3} illustrate the timing diagrams for SPI modes 0, 1, 2, and 3, respectively, showing how data is sampled and shifted according to the selected clock configuration.
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{mode0.png}
+%     \caption{SPI Mode 0: Data sampled on rising edge, shifted on falling edge.}
+%     \label{fig:mode0}
+% \end{figure}
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{mode1.png}
+%     \caption{SPI Mode 1: Data sampled on falling edge, shifted on rising edge.}
+%     \label{fig:mode1}
+% \end{figure}
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{mode2.png}
+%     \caption{SPI Mode 2: Data sampled on rising edge, shifted on falling edge.}
+%     \label{fig:mode2}
+% \end{figure}
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{mode3.png}
+%     \caption{SPI Mode 3: Data sampled on falling edge, shifted on rising edge.}
+%     \label{fig:mode3}
+% \end{figure}
+
+\section{Multi-Subnode Configuration}
+SPI supports configurations with multiple subnodes connected to a single main device. This can be achieved in two ways: regular mode and daisy-chain mode.
+
+\subsection{Regular Mode}
+In regular mode, the main device requires an individual Chip Select (CS) signal for each subnode. When the CS signal is asserted (pulled low), the clock and data lines become active for the selected subnode. If multiple CS signals are active simultaneously, the data received on the MISO line may become corrupted.
+
+\subsection{Daisy-Chain Mode}
+In daisy-chain mode, all subnodes are connected such that they share a common CS signal. Data is transmitted from the main device to the first subnode, which forwards the data to the next subnode, and so forth. This configuration allows multiple subnodes to be addressed with fewer control lines.
+
+\section{Conclusion}
+SPI is a versatile and efficient protocol for serial communication between a master and one or more slave devices. Its ability to support high clock frequencies and full-duplex communication makes it suitable for various applications in embedded systems. For specific device implementations and timing specifications, users should refer to the corresponding product data sheets.
+
+\end{document}
