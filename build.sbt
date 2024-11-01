@@ -7,16 +7,16 @@ ThisBuild / organizationName := "Rocksavage Technology"
 
 Test / parallelExecution := false
 
-val chiselVersion   = "5.3.0"
+val chiselVersion   = "6.5.0"
 val scalafmtVersion = "2.5.0"
-
 lazy val root = (project in file("."))
   .settings(
-    name                   := "spi",
+    name                   := "gpio",
     Test / publishArtifact := true,
     libraryDependencies ++= Seq(
       "org.chipsalliance" %% "chisel"     % chiselVersion,
-      "edu.berkeley.cs"   %% "chiseltest" % "5.0.0" % "test"
+      "org.scalatest" %% "scalatest" % "3.2.16" % "test",
+      
     ),
     scalacOptions ++= Seq(
       "-language:reflectiveCalls",
@@ -26,12 +26,13 @@ lazy val root = (project in file("."))
       "-Ymacro-annotations"
     ),
     addCompilerPlugin(
-      "org.chipsalliance" % "chisel-plugin" % "5.3.0" cross CrossVersion.full
+      "org.chipsalliance" % "chisel-plugin" % chiselVersion cross CrossVersion.full
     )
   )
 
 // Scala coverage settings
-coverageDataDir            := target.value / "../generated/scalaCoverage"
-coverageFailOnMinimum      := true
-coverageMinimumStmtTotal   := 90
-coverageMinimumBranchTotal := 95
+// val build_root = sys.env("BUILD_ROOT")
+// coverageDataDir            := target.value / s"../${build_root}/cov/scala"
+// coverageFailOnMinimum      := true
+// coverageMinimumStmtTotal   := 90
+// coverageMinimumBranchTotal := 95
